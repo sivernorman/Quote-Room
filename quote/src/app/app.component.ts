@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quotes/quote.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quote';
+  quote: Quote[]=[
+  new Quote('Time takes everyting','silver Storm' ,'carola'),
+   new Quote('ONE minut down next minute up','kalondu' ,'shawn'),
+   new Quote('greatness requires internal toughness','Storm' ,'B.jobes'),
+
+];
+   
 }

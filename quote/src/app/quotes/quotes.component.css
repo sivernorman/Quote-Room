@@ -1,0 +1,24 @@
+.word{
+    margin-top: 40px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px ;
+    padding: 40px;
+}
+.details{
+    display: flex;  
+    justify-content: space-between;
+  }
+  .bottom{
+      display: flex;  
+      justify-content: space-between;
+    }
+    .thumbs{
+        display: flex;
+        align-items: center;
+    }
+    .thumbs > img{
+        margin: 10px;
+    }
