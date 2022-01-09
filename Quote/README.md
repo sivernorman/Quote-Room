@@ -10,6 +10,7 @@ git must be installed in your computer, if not use the following command in your
 $ git clone  https://sivernorman.github.io/Quote-Room/
 $ cd Quotes
 $ atom . / code .
+
 # BDD
 # Behaviour	Input	Output
 User types quote	Talk is cheap,show me code	Talk is cheap,
