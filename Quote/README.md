@@ -1,6 +1,6 @@
 # Quote
 
-## Author
+# Author
 Silver Norman
 
 # Description
