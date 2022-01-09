@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-5">
+    <div *ngFor='let quote of quotes ;let i=index'>
+        <h3>{{quote.name}}</h3>
+        <p>{{quote.description}}</p>
+        <p>submmitted by; {{quote.commenter}}</p>
+        <button class="btn btn-outline-danger" (click)='deleteQuote(i)'>Delete quote</button>
+        <app-quote-details [quote]='quote'></app-quote-details>
+    </div>
+
+  </div>
+  <div class="col-md-7">
+    <app-form (add)='addNewQuote($event)'></app-form>
+
+  </div>
+</div>
