@@ -1,9 +1,9 @@
 # Quote
 
-# Author
+## Author
 Silver Norman
 
-# Description
+## Description
 This is an app that allows one to create quotes, like and dislike and even delete quotes. Image
 Setup/Installation Requirements
 git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
