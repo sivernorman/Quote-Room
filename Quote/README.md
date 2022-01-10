@@ -11,7 +11,7 @@ $ cd Quotes
 $ atom . / code .
 
 # BDD
-# Behaviour	Input	Output
+ Behaviour	Input	Output
 User types quote	Talk is cheap,show me code	Talk is cheap,
 User types author's name	Silver Norman
  User types in the date	01/04/2010	01/04/2010
