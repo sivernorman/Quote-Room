@@ -1,12 +1,11 @@
-<div class="row">
+<div class="row" id="row">
   <div class="col-md-5">
-    <div *ngFor='let quote of quotes ;let i=index'>
-        <h3>{{quote.name}}</h3>
-        <p>{{quote.description}}</p>
-        <p>submmitted by; {{quote.commenter}}</p>
-        <button class="btn btn-outline-danger" (click)='deleteQuote(i)'>Delete quote</button>
-        <!-- <button class="btn btn-warning" ></button> -->
-        <app-quote-details [quote]='quote'></app-quote-details>
+    <div *ngFor='let quote of quotes ;let i=index' class="quotes">
+      <h3>{{quote.name}}</h3>
+      <p>{{quote.description}}</p>
+      <p>submmitted by; {{quote.commenter}}</p>
+      <app-quote-details [quote]='quote'></app-quote-details>
+      <button class="btn btn-outline-danger" (click)='deleteQuote(i)'>Delete quote</button>
     </div>
 
   </div>
