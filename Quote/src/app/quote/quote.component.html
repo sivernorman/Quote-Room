@@ -5,10 +5,16 @@
       <p>{{quote.description}}</p>
       <p>submmitted by; {{quote.commenter}}</p>
       <app-quote-details [quote]='quote'></app-quote-details>
+      <button class="btn btn-success"(click)='upvote(i)'>up vote</button>
+      <span>{{quote.vote}}</span>
+      <button class="btn btn-success"(click)='downvote(i)'>down vote</button><br><br>
       <button class="btn btn-outline-danger" (click)='deleteQuote(i)'>Delete quote</button>
-    </div>
-    <!--  -..->
+      <p>{{quote. dateCreated|date}}</p>
 
+
+
+    </div>
+ 
 
   </div>
   <div class="col-md-7">
